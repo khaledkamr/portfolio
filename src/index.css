@@ -228,3 +228,11 @@ html {
 .shadow-purple {
   filter: drop-shadow(0 10px 20px rgba(147, 51, 234, 0.3));
 }
+
+.social-icon {
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.3);
+}
