@@ -148,6 +148,16 @@ html {
   animation: floating 3s ease-in-out infinite;
 }
 
+.floating-2 {
+  animation: floating 3s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.floating-3 {
+  animation: floating 3s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
 @keyframes floating {
   0%,
   100% {

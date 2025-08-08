@@ -11,38 +11,18 @@ export default function About() {
                 
                 <div className="z-5 relative mb-20 p-6">
                     <div className="animate-pulse">
-                        <div className="tech-icon absolute top-8 right-[530px] bg-black rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=js" width="40" alt="js logo" />
+                        <div className="tech-icon absolute -top-8 left-2 bg-purple-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=php" width="40" alt="php logo" />
                         </div>
                     </div>
                     <div className="animate-pulse">
-                        <div className="tech-icon absolute -top-0 left-[550px] bg-blue-500 rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=mysql" width="40" alt="mysql logo" />
+                        <div className="tech-icon absolute top-20 left-20 bg-red-500 rounded-lg floating-2">
+                            <img src="https://skillicons.dev/icons?i=laravel" width="40" alt="laravel logo" />
                         </div>
                     </div>
                     <div className="animate-pulse">
-                        <div className="tech-icon absolute -top-[50px] right-[400px] bg-white rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=html" width="40" alt="html logo" />
-                        </div>
-                    </div>
-                    <div className="animate-pulse">
-                        <div className="tech-icon absolute -top-[70px] left-[400px] bg-white rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=flask" width="40" alt="flask logo" />
-                        </div>
-                    </div>
-                    <div className="animate-pulse">
-                        <div className="tech-icon absolute top-20 right-[350px] bg-white rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=css" width="40" alt="css logo" />
-                        </div>
-                    </div>
-                    <div className="animate-pulse">
-                        <div className="tech-icon absolute top-20 left-[350px] bg-yellow-500 rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=py" width="40" alt="python logo" />
-                        </div>
-                    </div>
-                    <div className="animate-pulse">
-                        <div className="tech-icon absolute -top-8 right-[250px] bg-white rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=cpp" width="40" alt="cpp logo" />
+                        <div className="tech-icon absolute bottom-32 left-32 bg-white rounded-lg floating-3">
+                            <img src="https://skillicons.dev/icons?i=postman" width="40" alt="postman logo" />
                         </div>
                     </div>
                     <div className="animate-pulse">
@@ -51,18 +31,43 @@ export default function About() {
                         </div>
                     </div>
                     <div className="animate-pulse">
-                        <div className="tech-icon absolute top-8 right-2 bg-blue-500 rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=tailwind" width="40" alt="tailwind logo" />
+                        <div className="tech-icon absolute top-20 left-[350px] bg-yellow-500 rounded-lg floating-2">
+                            <img src="https://skillicons.dev/icons?i=py" width="40" alt="python logo" />
                         </div>
                     </div>
                     <div className="animate-pulse">
-                        <div className="tech-icon absolute -top-8 left-2 bg-purple-500 rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=php" width="40" alt="php logo" />
+                        <div className="tech-icon absolute -top-[70px] left-[400px] bg-white rounded-lg floating-3">
+                            <img src="https://skillicons.dev/icons?i=flask" width="40" alt="flask logo" />
                         </div>
                     </div>
                     <div className="animate-pulse">
-                        <div className="tech-icon absolute top-20 left-20 bg-red-500 rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=laravel" width="40" alt="laravel logo" />
+                        <div className="tech-icon absolute -top-0 left-[550px] bg-blue-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=mysql" width="40" alt="mysql logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-8 right-[530px] bg-black rounded-lg floating-2">
+                            <img src="https://skillicons.dev/icons?i=js" width="40" alt="js logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute -top-[50px] right-[400px] bg-white rounded-lg floating-3">
+                            <img src="https://skillicons.dev/icons?i=html" width="40" alt="html logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-20 right-[350px] bg-white rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=css" width="40" alt="css logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute -top-8 right-[250px] bg-white rounded-lg floating-2">
+                            <img src="https://skillicons.dev/icons?i=cpp" width="40" alt="cpp logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-32 right-32 bg-blue-500 rounded-lg floating-3">
+                            <img src="https://skillicons.dev/icons?i=react" width="40" alt="react logo" />
                         </div>
                     </div>
                     <div className="animate-pulse">
@@ -71,13 +76,8 @@ export default function About() {
                         </div>
                     </div>
                     <div className="animate-pulse">
-                        <div className="tech-icon absolute top-32 right-32 bg-blue-500 rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=react" width="40" alt="react logo" />
-                        </div>
-                    </div>
-                    <div className="animate-pulse">
-                        <div className="tech-icon absolute bottom-32 left-32 bg-white rounded-lg floating">
-                            <img src="https://skillicons.dev/icons?i=postman" width="40" alt="postman logo" />
+                        <div className="tech-icon absolute top-8 right-2 bg-blue-500 rounded-lg floating-2">
+                            <img src="https://skillicons.dev/icons?i=tailwind" width="40" alt="tailwind logo" />
                         </div>
                     </div>
                 </div>
