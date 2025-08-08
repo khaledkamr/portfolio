@@ -1,87 +1,111 @@
 export default function About() {
     return (
-        <div className="relative z-10 px-6 lg:px-20 py-20">
+        <div id="about" className="relative px-6 lg:px-20 py-20">
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl lg:text-5xl font-bold gradient-text mb-4">About Me</h2>
+                <div className="z-10 text-center mb-16">
+                    <h2 className="text-4xl lg:text-5xl font-bold gradient-text mb-4">What I Do</h2>
                     <p className="text-gray-300 text-xl max-w-2xl mx-auto">
-                        Passionate about creating digital experiences that make a difference
+                       Designing and developing dynamic web applications that solve real-world problems.
                     </p>
                 </div>
                 
-                <div className="relative flex justify-center items-center mb-20">
-                    <div className="relative z-10">
-                        <div className="w-40 h-40 rounded-full bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center text-6xl font-bold text-white shadow-2xl">
-                            K
-                        </div>
-                        <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-600 to-blue-600 animate-pulse opacity-20"></div>
-                    </div>
-                    
-                    <div className="orbital-ring w-80 h-80 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                        <div className="tech-icon absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center text-white text-2xl">
-                            <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  />
-                        </div>
-                        <div className="tech-icon absolute top-1/2 -right-6 transform -translate-y-1/2 w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center text-white text-2xl">
-                            <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"  />
-                        </div>
-                        <div className="tech-icon absolute -bottom-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-yellow-500 rounded-xl flex items-center justify-center text-black text-2xl">
-                            <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo"  />
-                        </div>
-                        <div className="tech-icon absolute top-1/2 -left-6 transform -translate-y-1/2 w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white text-2xl">
-                            <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
+                <div className="z-5 relative mb-20 p-6">
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-8 right-[530px] bg-black rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=js" width="40" alt="js logo" />
                         </div>
                     </div>
-                    
-                    <div className="orbital-ring reverse w-96 h-96 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                        <div className="tech-icon absolute -top-6 left-1/4 transform -translate-x-1/2 w-12 h-12 bg-pink-500 rounded-xl flex items-center justify-center text-white text-sm font-bold">
-                            <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
-                        </div>
-                        <div className="tech-icon absolute top-1/4 -right-6 transform -translate-y-1/2 w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center text-white text-2xl">
-                            <img src="https://skillicons.dev/icons?i=bootstrap" height="40" alt="bootstrap logo"  />
-                        </div>
-                        <div className="tech-icon absolute -bottom-6 right-1/4 transform -translate-x-1/2 w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center text-white text-sm font-bold">
-                            <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo"  />
-                        </div>
-                        <div className="tech-icon absolute bottom-1/4 -left-6 transform -translate-y-1/2 w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center text-white text-2xl">
-                            <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
-                        </div>
-                        <div className="tech-icon absolute top-8 right-8 w-12 h-12 bg-gray-800 rounded-xl flex items-center justify-center text-white text-2xl">
-                            <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
-                        </div>
-                        <div className="tech-icon absolute bottom-8 left-8 w-12 h-12 bg-blue-400 rounded-xl flex items-center justify-center text-white text-2xl">
-                            <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo"  />
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute -top-0 left-[550px] bg-blue-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=mysql" width="40" alt="mysql logo" />
                         </div>
                     </div>
-                    
-                    <div className="tech-icon absolute top-20 left-20 w-10 h-10 bg-purple-500 rounded-lg flex items-center justify-center text-white animate-pulse">
-                        <img src="https://skillicons.dev/icons?i=laravel" height="40" alt="laravel logo"  />
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute -top-[50px] right-[400px] bg-white rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=html" width="40" alt="html logo" />
+                        </div>
                     </div>
-                    <div className="tech-icon absolute bottom-20 right-20 w-10 h-10 bg-indigo-500 rounded-lg flex items-center justify-center text-white animate-pulse">
-                        <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute -top-[70px] left-[400px] bg-white rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=flask" width="40" alt="flask logo" />
+                        </div>
                     </div>
-                    <div className="tech-icon absolute top-32 right-32 w-10 h-10 bg-pink-500 rounded-lg flex items-center justify-center text-white animate-pulse">
-                        <img src="https://skillicons.dev/icons?i=php" height="40" alt="php logo"  />
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-20 right-[350px] bg-white rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=css" width="40" alt="css logo" />
+                        </div>
                     </div>
-                    <div className="tech-icon absolute bottom-32 left-32 w-10 h-10 bg-cyan-500 rounded-lg flex items-center justify-center text-white animate-pulse">
-                        <img src="https://skillicons.dev/icons?i=postman" height="40" alt="postman logo"  />
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-20 left-[350px] bg-yellow-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=py" width="40" alt="python logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute -top-8 right-[250px] bg-white rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=cpp" width="40" alt="cpp logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute -top-8 left-[250px] bg-white rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=git" width="40" alt="git logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-8 right-2 bg-blue-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=tailwind" width="40" alt="tailwind logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute -top-8 left-2 bg-purple-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=php" width="40" alt="php logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-20 left-20 bg-red-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=laravel" width="40" alt="laravel logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute bottom-20 right-20 bg-blue-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=bootstrap" width="40" alt="bootstrap logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute top-32 right-32 bg-blue-500 rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=react" width="40" alt="react logo" />
+                        </div>
+                    </div>
+                    <div className="animate-pulse">
+                        <div className="tech-icon absolute bottom-32 left-32 bg-white rounded-lg floating">
+                            <img src="https://skillicons.dev/icons?i=postman" width="40" alt="postman logo" />
+                        </div>
                     </div>
                 </div>
                 
                 <div className="grid lg:grid-cols-3 gap-8 text-center">
                     <div className="space-y-4">
-                        <div className="text-3xl mb-4">🎯</div>
-                        <h3 className="text-xl font-semibold text-white">Full Stack Development</h3>
-                        <p className="text-gray-300">Building end-to-end web applications with modern technologies and best practices.</p>
+                        <i className="fa-solid fa-server fa-2xl text-purple-500 p-4"></i>
+                        <h3 className="text-xl font-semibold gradient-text">Backend Development</h3>
+                        <p className="text-gray-300 px-6">
+                            Building secure, scalable server-side applications with clean, maintainable code. 
+                            Experienced in RESTful APIs, authentication, and performance optimization to handle real-world demands.
+                        </p>
+                    </div>
+                    <div className="z-30 space-y-4">
+                        <i className="fa-solid fa-database fa-2xl text-purple-500 p-4"></i>
+                        <h3 className="text-xl font-semibold gradient-text">Database Management</h3>
+                        <p className="text-gray-300 px-6">
+                            Designing and managing reliable database systems that ensure performance and scalability. 
+                            Skilled in SQL, query optimization, and maintaining data integrity across complex applications.
+                        </p>
                     </div>
                     <div className="space-y-4">
-                        <div className="text-3xl mb-4">🚀</div>
-                        <h3 className="text-xl font-semibold text-white">Open Source Contributor</h3>
-                        <p className="text-gray-300">Contributing to the developer community through open source projects and knowledge sharing.</p>
-                    </div>
-                    <div className="space-y-4">
-                        <div className="text-3xl mb-4">💡</div>
-                        <h3 className="text-xl font-semibold text-white">Innovation Focused</h3>
-                        <p className="text-gray-300">Always exploring new technologies and creative solutions to complex problems.</p>
+                        <i className="fa-solid fa-laptop-code fa-2xl text-purple-500 p-4"></i>
+                        <h3 className="text-xl font-semibold gradient-text">Frontend Development</h3>
+                        <p className="text-gray-300 px-6">
+                            Creating responsive, user-friendly interfaces with modern frameworks and clean design principles. 
+                            Focused on accessibility, performance, and delivering engaging, interactive user experiences.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -164,37 +164,8 @@ html {
 }
 
 .tech-icon:hover {
-  transform: translateY(-5px) scale(1.1);
+  transform: scale(1.1);
   filter: drop-shadow(0 10px 20px rgba(147, 51, 234, 0.3));
-}
-
-.orbital-ring {
-  border: 2px solid rgba(147, 51, 234, 0.3);
-  border-radius: 50%;
-  position: absolute;
-  animation: rotate 20s linear infinite;
-}
-
-.orbital-ring.reverse {
-  animation: rotate-reverse 25s linear infinite;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate-reverse {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
 }
 
 .project-card {
