@@ -109,6 +109,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <img src={require("../Assets/astronaut-1.png")} className="absolute top-20 right-[250px] w-[150px] floating-2 " alt="astronaut" />
         </div>
     );
 }

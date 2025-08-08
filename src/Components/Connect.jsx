@@ -44,7 +44,8 @@ export default function Connect() {
                 </div>
             </div>
             <img src={require("../Assets/connect-1.png")} className="absolute bottom-20 right-20 w-[200px] floating" alt="connect-1" />
-            <img src={require("../Assets/connect-2.png")} className="absolute bottom-20 left-20 w-[150px] floating" alt="connect-1" />
+            {/* <img src={require("../Assets/connect-2.png")} className="absolute bottom-20 left-20 w-[150px] floating" alt="connect-2" /> */}
+            <img src={require("../Assets/astronaut-5.png")} className="absolute bottom-0 left-[300px] w-[150px] floating-2" alt="astronaut" />
         </div>
     );
 }

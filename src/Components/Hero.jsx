@@ -23,9 +23,9 @@ export default function Hero() {
                     </p>
                     
                     <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
-                        <button className="purple-glow bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 transform">
+                        <a href="#connect" className="purple-glow bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 transform">
                             Let's Connect
-                        </button>
+                        </a>
                         <a href="#projects" className="border-2 border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white px-8 py-4 text-center rounded-lg font-medium transition-all duration-300">
                             View My Work
                         </a>
@@ -40,6 +40,7 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
+            <img src={require("../Assets/astronaut-6.png")} className="absolute bottom-10 right-[350px] w-[250px] floating-2" alt="astronaut" />
         </div>
     );
 }

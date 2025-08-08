@@ -86,6 +86,11 @@ export default function Projects() {
                     </button>
                 </div>
             </div>
+            <img src={require("../Assets/astronaut-8.png")} className="absolute top-20 left-[150px] w-[150px] floating-2" alt="astronaut" />
+            <img src={require("../Assets/project-1.png")} className="absolute top-[150px] right-[100px] w-[150px] floating-2" style={{ rotate: "25deg" }} alt="project-1" />
+            <img src={require("../Assets/project-2.png")} className="absolute top-[500px] left-10 w-[150px] floating-3" alt="project-2" />
+            <img src={require("../Assets/astronaut-2.png")} className="absolute top-[800px] right-10 w-[150px] floating-2" alt="astronaut" />
+            <img src={require("../Assets/project-3.png")} className="absolute top-[700px] right-20 w-[100px] floating" alt="project-3" />
         </div>
     );
 }
