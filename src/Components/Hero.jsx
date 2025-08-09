@@ -5,7 +5,7 @@ export default function Hero() {
                 <div className="space-y-8">
                     <div className="text-4xl lg:text-6xl font-bold text-white flex items-center space-x-4">
                         <span>Hi There!</span>
-                        <div className="floating text-5xl">👋</div>
+                        <div className="wave text-5xl">👋</div>
                     </div>
                     
                     <div className="text-4xl lg:text-6xl font-bold">

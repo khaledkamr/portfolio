@@ -3,6 +3,8 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Connect from "./Components/Connect";
+import BackToTopButton from "./Components/BackToTopButton";
+
 
 export default function App() {
   return (
@@ -12,6 +14,7 @@ export default function App() {
       <About />
       <Projects />
       <Connect />
+      <BackToTopButton />
     </div>
   );
 }

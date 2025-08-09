@@ -3,7 +3,7 @@ export default function About() {
         <div id="about" className="relative px-6 lg:px-20 py-20">
             <div className="max-w-7xl mx-auto">
                 <div className="z-10 text-center mb-16">
-                    <h2 className="text-4xl lg:text-5xl font-bold gradient-text mb-4">What I Do</h2>
+                    <h2 className="text-4xl lg:text-5xl font-bold gradient-text mb-4">What I Do?</h2>
                     <p className="text-gray-300 text-xl max-w-2xl mx-auto">
                        Designing and developing dynamic web applications that solve real-world problems.
                     </p>
