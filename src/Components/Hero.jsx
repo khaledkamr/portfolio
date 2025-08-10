@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <div className="relative z-10 px-6 lg:px-20 py-20">
+        <div id="hero" className="relative z-10 px-6 lg:px-20 py-20">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="space-y-8">
                     <div className="text-4xl lg:text-6xl font-bold text-white flex items-center space-x-4">
