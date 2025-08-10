@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Projects() {
     return (
         <div id="projects" className="relative z-10 px-6 lg:px-20 py-20">
@@ -72,9 +74,9 @@ export default function Projects() {
                 </div>
                 
                 <div className="text-center">
-                    <button className="purple-glow bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 transform">
+                    <Link to="/projects" className="purple-glow bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 transform">
                         View All Projects <i className="fa-solid fa-arrow-right"></i>
-                    </button>
+                    </Link>
                 </div>
             </div>
             <img src={require("../Assets/astronaut-8.png")} className="absolute top-20 left-[150px] w-[150px] floating-2" alt="astronaut" />
